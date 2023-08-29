@@ -9,21 +9,20 @@ export default defineNuxtConfig({
     "assets/css/style.css",
   ],
   modules: [
-    // '@tabler/core',
+    //'@tabler/icons-vue',
   ],
-  // plugins: [
-  //   { src: "@tabler/core/dist/js/tabler.js", mode: "client" },
-  //   { src: "@tabler/core/dist/js/demo.js", mode: "client" },
-  // ],
+  plugins: [
+    // { src: "plugins/tabler.js", mode: "client" },
+  ],
   app: {
     head: {
       title: "Asistente Administrativo Universitario AdminU",
       // script: [
       //   {
-      //     src: '@/@tabler/core/dist/js/tabler.js',
+      //     src: '~/@tabler/core/dist/js/tabler.js', type: 'text/javascript'
       //   },
       //   {
-      //     src: '@tabler/core/dist/js/demo.js',
+      //     src: '~/@tabler/core/dist/js/demo.js', type: 'text/javascript'
       //   },
       // ]
     },
